@@ -34,10 +34,28 @@ to run the script  you must have the **Node.js** installed in your device.
 
 
 ## Setup Instructions ##
-- first you new to clone the git hub repository(alu_regex-data-extraction-chiagbanweghi101
+- first you need to clone the git hub repository(alu_regex-data-extraction-chiagbanweghi101
 ).
 
 - Installing of node.js 
 - creating an input file (index.txt)
+
+
+## **Pattern Used** ##
+
+- Email Rgex
+- URL REGEX:  const emailRegex = /[a-zA-Z0-9](?:[a-zA-Z0-9._%+-]*[a-zA-Z0-9])?@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*\.[a-zA-Z]{2,}/g;
+
+
+- PHONE NUMBER REGEX:const phoneRegex = /\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}/g;
+
+
+- HASHTAG REGEX:const hashtagRegex = /#\w+/g;
+
+- TIME REGEX: const timeRegex = /\b(1[0-2]|0?[1-9]):[0-5][0-9]\s*(AM|PM)\b|\b([01]?[0-9]|2[0-3]):[0-5][0-9]\b/g;
+
+
+
+
 
 **chiagbanweghi moses peter**
