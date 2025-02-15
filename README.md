@@ -43,8 +43,11 @@ to run the script  you must have the **Node.js** installed in your device.
 
 ## **Pattern Used** ##
 
-- Email Rgex
-- URL REGEX:  const emailRegex = /[a-zA-Z0-9](?:[a-zA-Z0-9._%+-]*[a-zA-Z0-9])?@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*\.[a-zA-Z]{2,}/g;
+- Email Rgex:const emailRegex = /[a-zA-Z0-9](?:[a-zA-Z0-9._%+-]*[a-zA-Z0-9])?@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*\.[a-zA-Z]{2,}/g;
+
+
+- URL REGEX:  
+const urlRegex = /https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z]{2,})+(\/[a-zA-Z0-9-.~])(\?[a-zA-Z0-9-.~=&])?(#[a-zA-Z0-9-_.~])?/g;
 
 
 - PHONE NUMBER REGEX:const phoneRegex = /\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}/g;
